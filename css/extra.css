@@ -1,0 +1,22 @@
+
+a:after {
+  content: "→";
+  position: absolute;
+  right: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+  color: white;
+}
+a:hover:after {
+  content: "→";
+  position: absolute;
+  right: 10px;
+  opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}

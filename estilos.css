@@ -1,0 +1,145 @@
+p {
+	font-weight: 500;
+	font-style: oblique;
+	font-size: 13pt;
+	color: black;
+}
+
+b {
+	font-style: normal;
+}
+
+body {
+	margin: 15px 25px;
+}
+
+h3 {
+	color: #4169E1;
+	font-size: 16pt;
+}
+
+
+h4 {
+	color: #7B68EE;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: black;
+}
+
+html {
+	background-image: url("css/imagencss/fondo.jpg");
+	}
+
+img {
+	border:2px solid #20B2AA;
+	border-radius:31px;
+	margin-top: 10px;
+	margin-left:65px;
+	width:200px;
+	height:300px;
+}
+
+#inicio {
+	float:left;
+	margin-left:10px;
+	width:20%;
+
+}
+
+#inicio ul{
+	float:left;
+	width: 100%;
+	
+}
+
+#principal {
+	float:right;
+	width:70%;
+}
+
+#principal ul {
+	font-weight: bold;
+	list-style: none;
+}
+
+#contenido_principal {
+	float:right;
+	width:70%;
+}
+
+#contenido_secundario {
+	float:right;
+	width:70%;
+}
+
+#pie {
+	float:right;
+	width:70%;
+}
+
+.sector {
+background: background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */;
+	padding:10px;
+	border:2px solid #20B2AA;
+	border-radius:10px;
+	margin:10px 10px;
+}
+
+.menu li {
+	border-radius: 20px;
+	border:2px solid #20B2AA;
+	padding:10px;
+	margin:10px 20px 10px 20px;
+	list-style: none;
+background: background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #9370DB;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+ul li{
+	border-bottom: 2px dotted black;
+	margin:5px;
+	list-style: none;
+	padding-left: 20px;
+	line-height: 1.5;
+}
+
+.imagenes img {
+	width:600px;
+	height:400px;
+}
